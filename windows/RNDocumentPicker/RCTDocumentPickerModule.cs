@@ -14,7 +14,7 @@ using Microsoft.ReactNative;
 
 namespace RNDocumentPicker
 {
-    [ReactModule]
+    [ReactModule("RNDocumentPicker")]
     class RCTDocumentPickerModule
     {
         private FileOpenPicker _pendingPicker;
